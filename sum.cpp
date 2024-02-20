@@ -2,11 +2,13 @@
 
 using namespace std;
 
-void joyce(){
-    cout << "joyce my baby";
+int sum(int a, int b)
+{
+    return a+b;
 }
+
 int main()
 {
-    joyce();
+    cout << sum(4,5);
     return 0;
 }
